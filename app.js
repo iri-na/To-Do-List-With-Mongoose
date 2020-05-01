@@ -14,7 +14,7 @@ app.use(express.static("public"));
 
 
 
-mongoose.connect("mongodb+srv://admin-irina:hewwo@cluster0-xpmes.mongodb.net/todolistDB");
+mongoose.connect("mongodb+srv://admin-irina:<PASSWORD>@cluster0-xpmes.mongodb.net/todolistDB");
 
 const itemSchema = new mongoose.Schema({
   name: String
